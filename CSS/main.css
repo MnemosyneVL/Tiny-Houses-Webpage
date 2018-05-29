@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* Global Styles */
+a:hover {
+	color: rgba(255,255,255,1.00);
+}
+/*header*/
+header {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	height: 180px;
+}
+/* Logo placeholder*/
+#logo {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 125px;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	background-color: rgba(190,190,190,1.00);
+}
+#headerMenu{
+	float: left;
+	margin-left: 10%;
+	align-items: center;
+	
+}
+#menuCategorieGames{
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 10px 30px; 
+	width: 150px;
+	text-align: center;
+}
+#menuCategorieAboutUs{
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 10px 30px;
+	width: 150px;
+	text-align: center;
+}
+/* div for Links in header */
+#headerLinks {
+	float: right;
+	width: 250px;
+	height: 100px;
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 30px;
+	background-color: rgba(255,255,255,1.00);
+}
+/* Links in header */
+#headerLinks a {
+	text-decoration: none;
+	color: rgba(146,146,146,1.00);
+	padding-left: 66px;
+	font-size: 14px;
+}
+/* Main content of the site */
+#content {
+	clear: both;
+	overflow: auto;
+	padding-top: 10px;
+}
+/* Sidebar */
+#content .adbar {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	float: left;
+	width: 150px;
+	height: 500px;
+	margin: 0px 20px 20px;
+	background-color: rgba(246,246,246,1.00);
+}
+/* main content of the site */
+#content .mainContent {
+	float: left;
+	width: 60%;
+	text-align: center;
+	padding-left: 4%;
+}
+/* Whole page content */
+#mainWrapper {
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+/* Product rows for catalog */
+#content .mainContent .productRow {
+	overflow: auto;
+	color: rgba(146,146,146,1.00);
+}
+/* Each product Information in the catalog */
+.mainContent .productRow .productOutlook {
+	float: left;
+	padding-right: 4%;
+	padding-left: 4%;
+	width: 30%;
+	height: 350px;
+}
+/* Picture holder for products rating*/
+.productRow .productOutlook .productRating {
+	position: relative;
+	margin-top: 10px;
+}
+/* Prices of a products in catalog */
+.productRow .productOutlook .housePrice {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 22px;
+	position: relative;
+}
+/* Buy button for products in catalog */
+.productRow .productOutlook .buyButton {
+	position: relative;
+	width: 100%;
+	background-color: rgba(208,207,207,1.00);
+	height: 35px;
+	color: rgba(255,255,255,1.00);
+	border-style: none;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+/* Each product Information in the catalog */
+.mainContent .productRow .productInfo {
+	float: left;
+	height: 350px;
+}
+.productRow .productInfo .houseTechnicalData {
+	height: 20%;
+	text-align: center;
+	padding-left: 10px;
+}
+.productRow .productInfo .houseTechnicalData p {
+	margin: 25px 10px;
+	float: left;
+	font-size: 15px;
+}
+.productRow .productInfo .houseUserDescription {
+	height: 60%;
+}
+.productRow .productInfo .houseUserDescription .houseDescriptionText {
+	text-align: left;
+	padding-left: 10px;
+}
+.productRow .productInfo .houseGameLogo {
+	height: 20%;
+}
+/* footer */
+#mainWrapper footer {
+	clear: both;
+	overflow: auto;
+	background-color: rgba(208,207,207,1.00);
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 1.8;
+	padding-top: 22px;
+	padding-left: 22px;
+	text-align: center;
+	padding-bottom: 22px;
+	padding-right: 22px;
+}
+/*Each footer content */
+#mainWrapper footer div {
+	width: 27%;
+	float: left;
+	padding-left: 4%;
+	padding-right: 2%;
+	color: rgba(255,255,255,1.00);
+	text-align: justify;
+}
+/* Links in footer */
+footer div a {
+	color: rgba(146,146,146,1.00);
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+/* Product's images in catalog */
+.productInfo div img {
+	width: 100%;
+}
+/*Links in sidebar */
+.sidebar #menubar .menu ul li a {
+	color: rgba(146,146,146,1.00);
+	text-decoration: none;
+}
+.sidebar #menubar .menu ul li a:hover {
+	color: rgba(107,97,97,1.00);
+	text-decoration: none;
+}
+/* Menu headings in sidebar */
+#menubar .menu h2 {
+	font-size: 14px;
+}
+/*Links under menus in sidebar */
+#menubar .menu ul li a {
+	font-size: 14px;
+}
+/* Menus in sidebar */
+.sidebar #menubar .menu {
+	margin-bottom: 29px;
+}
+/* Container for links in footer */
+footer .footerlinks {
+	margin-top: -15px;
+}
+
+
+
