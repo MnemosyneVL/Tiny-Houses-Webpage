@@ -1,0 +1,202 @@
+@charset "utf-8";
+@font-face {
+	font-family: 'Franklin Gothic Heavy';
+	src: url("css/fonts/Harabara.eot");
+	src: 
+	url("css/Fonts/FRAHV.woff") format("woff"),
+	url("css/Fonts/FRAHV.otf") format("opentype"),
+	url("css/Fonts/FRAHV.svg#filename") format("svg");
+}
+/* Global Styles */
+a:hover {
+	color: rgba(255,255,255,1.00);
+}
+
+body
+{
+	background-color: rgb(143, 151, 109);
+}
+/*header*/
+header {
+
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+    height: 120px;
+	background-color: rgb(255, 255, 255);
+
+}
+/* Logo placeholder*/
+#logo {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 125px;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	background-color: rgba(190,190,190,1.00);
+}
+#headerMenu{
+	float: left;
+	margin-left: 10%;
+	align-items: center;
+	
+}
+#menuCategorieGames{
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 10px 30px; 
+	width: 150px;
+	text-align: center;
+	background-color: rgb(47, 122, 97);
+}
+#menuCategorieAboutUs{
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 10px 30px;
+	width: 150px;
+	text-align: center;
+	background-color: rgb(47, 122, 97);
+}
+/* div for Links in header */
+#headerLinks {
+	float: right;
+	width: 250px;
+	height: 100px;
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 30px;
+
+}
+/* Links in header */
+#headerLinks a {
+	text-decoration: none;
+	color: rgba(146,146,146,1.00);
+	padding-left: 66px;
+	font-size: 14px;
+}
+
+
+
+/* footer */
+#mainWrapper footer {
+	clear: both;
+	overflow: auto;
+	background-color: rgb(148, 172, 202);
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 1.8;
+	text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    
+}
+/*Each footer content */
+#mainWrapper footer div {
+	width: 27%;
+	float: left;
+	padding-left: 4%;
+	padding-right: 2%;
+	color: rgba(255,255,255,1.00);
+	text-align: justify;
+}
+/* Links in footer */
+footer div a {
+	color: rgb(163, 32, 32);
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+ .row 
+ {
+    display: inline-flex;
+    margin-top: 1%;
+    margin-left: 4%;
+    margin-right: 3.8%;
+    margin-bottom: 1%;
+  }
+  
+  .Cart 
+  {
+    flex: 35%;
+
+  }
+  .Ad
+  {
+      flex: 15%;
+  }
+  
+  .Billing
+   {
+
+   }
+
+  
+  .Cart,.Billing,.Main 
+  {
+    padding:  16px;
+  }
+  
+  .container 
+  {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    
+  }
+  
+  input[type=text] 
+{
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+}
+  
+  label 
+{
+    margin-bottom: 10px;
+    display: block;
+}
+  
+  .icon-container 
+{
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+  
+  .button
+{
+    background-color: #818FA6;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 300px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 5%;
+}
+  
+  .button:hover 
+{
+    background-color:  #40587F;
+}
+  
+  span.price
+{
+    float: right;
+    color: rgb(175, 29, 29);
+}
+  
+   /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
