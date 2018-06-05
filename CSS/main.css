@@ -236,6 +236,40 @@ footer .footerConnect {
 footer .footerContact {
 	
 }
+#maxRegisterBackground{
+    margin-left: 250px;
+    background-color: rgb(83, 173, 143);
+    border: 2px solid grey;
+    border-radius: 8px;
+    width: 70%;
+    height: 550px;
+    padding-top: 100px;
+    
+}
+#maxLoginBackground{
+    margin-left: 250px;
+    background-color: rgb(83, 173, 143);
+    border: 2px solid grey;
+    border-radius: 8px;
+    width: 70%;
+    height: 250px;
+    padding-top: 100px;
+    
+}
+#maxAlignment{
+    text-align: center;
+}
+
+#maxCentered{
+    margin-left: 20pc;
+    margin-right: 20pc;
+}
+#maxRegisterLeft{
+    float: left;
+}
+#maxRegisterRight{
+    float: right;
+}
 
 
 
