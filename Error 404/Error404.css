@@ -13,7 +13,6 @@ header {
 	height: 180px;
 	margin-left: -6%;
 	margin-right: -5.55%;
-	background-color: white;
 }
 /* Logo placeholder*/
 #logo {
@@ -112,17 +111,32 @@ header {
 	padding-left: 66px;
 	font-size: 14px;
 }
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-body {
+
+
+body 
+{
 	margin:0;
-	background-color: #ffffff;
 }
-#mainWrapper {
+#mainWrapper 
+{
 	width: 90%;
 	padding-left: 5%;
 	padding-right: 5%;
 }
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#error
+{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 28pt;
+	background-color: rgb(196, 124, 124);
+	z-index: 1;
+}
+#lexus
+{
+	z-index: -1;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* footer */
 #mainWrapper footer {
 	clear: both;
@@ -160,98 +174,6 @@ footer .footerConnect {
 footer .footerContact {
 	
 }
- /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
- .row 
- {
-    display: inline-flex;
-	margin-left: 1.6%;
-	margin-right: -1.1%;
-  }
-  
-  .Cart 
-  {
-	flex: 35%;
 
-  }
-  .Ad
-  {
-	text-align: center;
-	vertical-align: middle;
-	line-height: 383px;   
-	margin-left: -4%;
-	height: 356px;
-	background-color: #f2f2f2;
-    
-  }
 
-  
-  .Cart,.Billing,.Main 
-  {
-    padding:  16px;
-  }
-  
-  .container 
-  {
-    background-color: #f2f2f2;
-	padding: 5px 20px 15px 20px;
-	margin-left: -4%;
-    
-  }
-  
-  input[type=text] 
-{
-    width: 90%;
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-
-}
-  
-  label 
-{
-    margin-bottom: 10px;
-    display: block;
-}
-  
-  .icon-container 
-{
-    margin-bottom: 20px;
-    padding: 7px 0;
-    font-size: 24px;
-}
-  
-  .button
-{
-    background-color: #818FA6;
-    color: white;
-    padding: 12px;
-    margin: 10px 0;
-    border: none;
-    width: 300px;
-    cursor: pointer;
-    font-size: 18px;
-
-}
-  
-  .button:hover 
-{
-    background-color:  #40587F;
-}
-  
-  span.price
-{
-    float: right;
-    color: rgb(0, 0, 0);
-}
-.cartProductLink
-{
-	text-decoration: none;
-	color: black;
-}
-.cartProductLink:hover
-{
-	text-decoration: none;
-	color: rgb(27, 49, 172);
-}
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/

@@ -1,3 +1,4 @@
+
 @charset "utf-8";
 /* Global Styles */
 a:hover {
@@ -236,6 +237,339 @@ footer .footerConnect {
 footer .footerContact {
 	
 }
+/*#maxRegisterBackground{
+    margin-left: 250px;
+    background-color: rgb(83, 173, 143);
+    border: 2px solid grey;
+    border-radius: 8px;
+    width: 70%;
+    height: 550px;
+    padding-top: 100px;
+    
+}
+#maxLoginBackground{
+    margin-left: 250px;
+    background-color: rgb(83, 173, 143);
+    border: 2px solid grey;
+    border-radius: 8px;
+    width: 70%;
+    height: 250px;
+    padding-top: 100px;
+    
+}
+#maxAlignment{
+    text-align: center;
+}
+
+#maxCentered{
+    margin-left: 20pc;
+    margin-right: 20pc;
+}
+#maxRegisterLeft{
+    float: left;
+}
+#maxRegisterRight{
+    float: right;
+}
+*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#maxRegisterBackground{
+    margin-left: 250px;
+    background-color: rgb(83, 173, 143);
+    border: 2px solid grey;
+    border-radius: 8px;
+    width: 70%;
+    height: 750px;
+    padding-top: 100px;
+    
+}
+#maxLoginBackground{
+    margin-left: 250px;
+    background-color: rgb(83, 173, 143);
+    border: 2px solid grey;
+    border-radius: 8px;
+    width: 70%;
+    height: 250px;
+    padding-top: 100px;
+    
+}
+#maxAlignment{
+    text-align: center;
+}
+
+#maxCentered{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#maxRegisterLeft{
+    float: left;
+}
+#maxRegisterRight{
+    float: right;
+}
+#maxDown{
+    padding-top: 47%;
+    width: 100%;
+    text-align: center;
+}
 
 
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Kris About Us Page*/
+#welcomeText
+{
+	font-family: 'Franklin Gothic Medium';
+	font-size: 28pt;
+    text-align: center;
+	color: #2f3841;
+	text-decoration: underline;
+
+
+}
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#weAre
+{
+	font-family: 'Calibri';
+	font-size: 18pt;
+    text-align: center;
+	color: rgb(27, 105, 156);
+
+}
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#groupPhoto
+{
+
+}
+
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#process
+{
+
+	float: left;	
+	margin-top: 1%;
+	margin-bottom: 1%;
+	width: 33%;
+
+}
+
+#theGroupText
+{
+	float: left;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left:1%;
+	margin-right:1%;
+	width: 32%;
+	height: 273px;
+	font-size: 2.5vh;
+	text-align: center;
+	background-color: #84bad3;
+}
+
+#merit
+{
+	float: left;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	width: 33%;
+}
+
+
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#groupInfo
+{
+	float: left;
+	margin-bottom: 1%;
+	width: 33%;
+	height: 555px;
+	font-size: 2.5vh;
+	text-align: center;
+	background-color: rgb(143, 81, 127);
+}
+
+#studio
+{
+	float: right;
+	margin-bottom: 1%;
+	width: 66%;
+}
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#partners
+{
+	clear: both;
+	overflow: auto;
+	background-color: rgb(194, 144, 144);
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 1.8;
+	padding-top: 22px;
+	padding-left: 22px;
+	text-align: center;
+	padding-bottom: 22px;
+	padding-right: 22px;
+	margin-bottom: 1%;
+}
+
+#clientText
+{
+	font-family: 'Franklin Gothic Heavy';
+	font-size: 28pt;
+    text-align: left;
+	color: #28323d;
+	text-decoration: underline;
+
+}
+
+.clientList
+{
+	float: left;
+	margin-top: 3%;
+	margin-right: 15%;
+	padding-left: 22px;
+	text-align: left;
+}
+.clientList2
+{
+	margin-top: 3%;
+	float: left;
+	text-align: left;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Kris Checkout Page*/
+.row 
+ {
+    display: inline-flex;
+	margin-left: 1.6%;
+	margin-right: -1.1%;
+  }
+  
+  .Cart 
+  {
+	flex: 35%;
+
+  }
+  .Ad
+  {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 383px;   
+	margin-left: -4%;
+	height: 356px;
+	background-color: #f2f2f2;
+    
+  }
+
+  
+  .Cart,.Billing,.Main 
+  {
+    padding:  16px;
+  }
+  
+  .container 
+  {
+    background-color: #f2f2f2;
+	padding: 5px 20px 15px 20px;
+	margin-left: -4%;
+    
+  }
+  
+  input[type=text] 
+{
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+}
+  
+  label 
+{
+    margin-bottom: 10px;
+    display: block;
+}
+  
+  .icon-container 
+{
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+  
+  .button
+{
+    background-color: #818FA6;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 300px;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+  
+  .button:hover 
+{
+    background-color:  #40587F;
+}
+  
+  span.price
+{
+    float: right;
+    color: rgb(0, 0, 0);
+}
+.cartProductLink
+{
+	text-decoration: none;
+	color: black;
+}
+.cartProductLink:hover
+{
+	text-decoration: none;
+	color: rgb(27, 49, 172);
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* Kris Error 404  x Page*/
+#error
+{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 28pt;
+	background-color: rgb(196, 124, 124);
+	z-index: 1;
+}
+#lexus
+{
+	z-index: -1;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* Kris Thank You Page */
+#groupInfoB
+{
+	float: left;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	width: 33%;
+	height: 556px;
+	font-size: 2.5vh;
+	text-align: center;
+	background-color: rgb(143, 81, 127);
+}
+
+#blueprints
+{
+	margin-top: 1%;
+	float: right;
+	margin-bottom: 1%;
+    width: 66%;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
