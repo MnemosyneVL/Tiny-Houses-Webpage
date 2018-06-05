@@ -280,7 +280,7 @@ footer .footerContact {
     border: 2px solid grey;
     border-radius: 8px;
     width: 70%;
-    height: 550px;
+    height: 750px;
     padding-top: 100px;
     
 }
@@ -299,14 +299,17 @@ footer .footerContact {
 }
 
 #maxCentered{
-    margin-left: 20pc;
-    margin-right: 20pc;
+    margin-left: 320px;
+    margin-right: 320px;
 }
 #maxRegisterLeft{
     float: left;
 }
 #maxRegisterRight{
     float: right;
+}
+#maxDown{
+    padding-top: 450px;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
