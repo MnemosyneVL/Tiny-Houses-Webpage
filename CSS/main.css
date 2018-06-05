@@ -309,7 +309,9 @@ footer .footerContact {
     float: right;
 }
 #maxDown{
-    padding-top: 45%;
+    padding-top: 47%;
+    width: 100%;
+    text-align: center;
 }
 
 
