@@ -111,8 +111,6 @@ header {
 }
 /* Main content of the site */
 #content {
-	clear: both;
-	overflow: auto;
 	padding-top: 10px;
 }
 /* Sidebar */
@@ -120,17 +118,15 @@ header {
 	font-family: 'Montserrat', sans-serif;
 	color: rgba(146,146,146,1.00);
 	float: left;
-	width: 150px;
+	width: 10%;
 	height: 500px;
-	margin: 0px 20px 20px;
 	background-color: rgba(246,246,246,1.00);
 }
 /* main content of the site */
 #content .mainContent {
 	float: left;
-	width: 60%;
+	width: 75%;
 	text-align: center;
-	padding-left: 4%;
 }
 /* Whole page content */
 body {
@@ -143,21 +139,19 @@ body {
 }
 /* Product rows for catalog */
 #content .mainContent .productRow {
-	overflow: auto;
 	color: rgba(146,146,146,1.00);
 }
 /* Each product Information in the catalog */
 .mainContent .productRow .productOutlook {
 	float: left;
-	padding-right: 4%;
-	padding-left: 4%;
-	width: 30%;
-	height: 350px;
+	width: 25%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 /* Picture holder for products rating*/
 .productRow .productOutlook .productRating {
 	position: relative;
-	margin-top: 10px;
+	padding-top: 10%;
 }
 /* Prices of a products in catalog */
 .productRow .productOutlook .housePrice {
@@ -180,10 +174,10 @@ body {
 /* Each product Information in the catalog */
 .mainContent .productRow .productInfo {
 	float: left;
-	height: 350px;
+	width: 65%;
 }
 .productRow .productInfo .houseTechnicalData {
-	height: 20%;
+	min-height: 75px;
 	text-align: center;
 	padding-left: 10px;
 }
@@ -193,14 +187,17 @@ body {
 	font-size: 15px;
 }
 .productRow .productInfo .houseUserDescription {
-	height: 60%;
+	min-height: 200px;
+}
+.productRow .productInfo .houseUserDescription p {
+	margin: 25px 10px;
 }
 .productRow .productInfo .houseUserDescription .houseDescriptionText {
 	text-align: left;
 	padding-left: 10px;
 }
 .productRow .productInfo .houseGameLogo {
-	height: 20%;
+
 }
 /* footer */
 #mainWrapper footer {
