@@ -137,10 +137,18 @@ body {
 	padding-left: 5%;
 	padding-right: 5%;
 }
+#content .mainContent .productRowsDescription {
+	height: 75px;
+	background-color:  rgba(208,207,207,1.00); 
+}
+.mainContent .productRowsDescription p {
+	color: rgba(255,255,255,1.00);
+	font-size: 30px;
+}
 /* Product rows for catalog */
 #content .mainContent .productRow {
 	color: rgba(146,146,146,1.00);
-	inlign: block;
+	height: 400px;
 }
 /* Each product Information in the catalog */
 .mainContent .productRow .productOutlook {
