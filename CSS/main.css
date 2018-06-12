@@ -140,6 +140,7 @@ body {
 /* Product rows for catalog */
 #content .mainContent .productRow {
 	color: rgba(146,146,146,1.00);
+	inlign: block;
 }
 /* Each product Information in the catalog */
 .mainContent .productRow .productOutlook {
