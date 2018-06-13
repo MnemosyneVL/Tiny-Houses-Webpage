@@ -130,11 +130,16 @@ body
 	vertical-align: middle;
 	font-size: 28pt;
 	background-color: rgb(196, 124, 124);
-	z-index: 1;
+
 }
 #lexus
 {
-	z-index: -1;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  min-width: 100%;
+  min-height: 100%;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* footer */
