@@ -406,6 +406,10 @@ footer .footerContact {
 	margin-bottom: 1%;
 	width: 66%;
 }
+#whole
+{
+	background-color: red;
+}
  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 #partners
@@ -454,27 +458,11 @@ footer .footerContact {
 /*Kris Checkout Page*/
 .row 
  {
-    display: inline-flex;
-	margin-left: 1.6%;
-	margin-right: -1.1%;
+	display: inline-flex;
+	margin-left:2.6%;
+	margin-right:-2.6%;
   }
   
-  .Cart 
-  {
-	flex: 35%;
-
-  }
-  .Ad
-  {
-	text-align: center;
-	vertical-align: middle;
-	line-height: 383px;   
-	margin-left: -4%;
-	height: 356px;
-	background-color: #f2f2f2;
-    
-  }
-
   
   .Cart,.Billing,.Main 
   {
