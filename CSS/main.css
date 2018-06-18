@@ -6,11 +6,14 @@ a:hover {
 /*header*/
 header {
 	font-family: 'Montserrat', sans-serif;
+	margin-right: -5%;
+	margin-left: -6%;
 	color: rgba(146,146,146,1.00);
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
 	height: 180px;
+	background-image: url("../Design/top bar side tiling.png");
 }
 /* Logo placeholder*/
 #logo {
