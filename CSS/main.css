@@ -334,9 +334,7 @@ footer .footerContact {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #maxRegisterBackground{
     margin-left: 250px;
-    background-color: rgb(83, 173, 143);
-    border: 2px solid grey;
-    border-radius: 8px;
+    background-color: #40587F;
     width: 70%;
     height: 750px;
     padding-top: 100px;
@@ -344,16 +342,18 @@ footer .footerContact {
 }
 #maxLoginBackground{
     margin-left: 250px;
-    background-color: rgb(83, 173, 143);
-    border: 2px solid grey;
-    border-radius: 8px;
+	background-color: #40587F;
+	margin-top:1%;
     width: 70%;
     height: 250px;
-    padding-top: 100px;
-    
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 #maxAlignment{
-    text-align: center;
+	text-align: center;
+	font-size: 12pt;
+	font-family: "FFFFORWA";
+	color: white;
 }
 
 #maxCentered{
@@ -364,15 +364,35 @@ footer .footerContact {
     float: left;
 }
 #maxRegisterRight{
-    float: right;
+	float: right;
+	
 }
 #maxDown{
     padding-top: 47%;
     width: 100%;
-    text-align: center;
+	text-align: center;
+	color: white;
+	font-family: "Arial";
+	text-decoration-line: none;
+
 }
+.btn{
+	text-decoration: none;
+	color: white;
+	padding: 10px 10px 10px 10px;
+	background-color: #818FA6;
+	font-size: 12pt;
+	font-family: "FFFFORWA";
+}
+#maxRegisterLeft p{
+	color: white;
+	font-family: "Arial";
+}
+#maxRegisterRight p{
 
-
+	color: white;
+	font-family: "Arial";
+}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*Kris About Us Page*/
