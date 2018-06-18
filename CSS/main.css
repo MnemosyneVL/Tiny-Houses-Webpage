@@ -1,4 +1,12 @@
 @charset "utf-8";
+@font-face {
+	font-family: "FFFFORWA";
+	src: url("../Design/fff-forward/FFFFORWA.TTF");
+	src: 
+	url("../Design/fff-forward/FFFFORWA.TTF") format("woff"),
+	url("../Design/fff-forward/FFFFORWA.TTF") format("opentype"),
+	url("../Design/fff-forward/FFFFORWA.TTF") format("svg");
+	}
 /* Global Styles */
 a:hover {
 	color: rgba(255,255,255,1.00);
@@ -75,7 +83,8 @@ header {
     padding: 16px;
     font-size: 16px;
     border: none;
-    cursor: pointer;
+	cursor: pointer;
+	font-family:'FFFFORWA',Arial, Helvetica, sans-serif;
 }
 .headerDropdownButton:hover, .headerDropdownButton:focus {
     background-color: #40587F;
@@ -129,6 +138,7 @@ header {
 /* main content of the site */
 #content .mainContent {
 	float: left;
+	display: inline-block;
 	width: 76%;
 	text-align: center;
 }
@@ -146,23 +156,26 @@ body {
 #content .mainContent .productRowsDescription {
 	height: 80px;
 	margin-bottom: 10px;
-	text-align: center;
-	background-image: url("../Design/New_Schematics_Bar.png");
-	
+	text-align: center;	
 }
-.test
+.newSchematics
 {
-	background-image: url("../Design/New_Schematics_Bar");
-	background-color: red;
+	background-color: #40587F; 
+	font-family:'FFFFORWA',Arial, Helvetica, sans-serif;
+	color: white;
+
 }
+
 .mainContent .productRowsDescription p {
 	color: rgba(255,255,255,1.00);
 	font-size: 30px;
 }
 /* Product rows for catalog */
 #content .mainContent .productRow {
-	color: rgba(146,146,146,1.00);
-	height: 400px;
+	color: rgb(255, 255, 255);
+	height: 500px;
+	background-color: #818FA6;
+	margin-bottom: 1%;
 }
 /* Each product Information in the catalog */
 .mainContent .productRow .productOutlook {
@@ -171,26 +184,39 @@ body {
 	padding-left: 5%;
 	padding-right: 5%;
 }
+.mainContent .productRow .productOutlook .productPhoto img {
+	height: 250px;
+	width: 250px;
+}
 /* Picture holder for products rating*/
 .productRow .productOutlook .productRating {
 	position: relative;
 	padding-top: 10%;
 }
+.productRow .productOutlook .productRating img {
+	position: relative;
+	padding-top: 10%;
+	height: auto;
+	width: 100%;
+
+}
 /* Prices of a products in catalog */
 .productRow .productOutlook .housePrice {
-	font-family: 'Montserrat', sans-serif;
-	color: rgba(146,146,146,1.00);
+	font-family: 'FFFFORWA';
+	color: rgb(255, 255, 255);
 	font-size: 22px;
 	position: relative;
+	
 }
 /* Buy button for products in catalog */
 .productRow .productOutlook .buyButton {
 	position: relative;
 	width: 100%;
-	background-color: rgba(208,207,207,1.00);
 	height: 35px;
-	color: rgba(255,255,255,1.00);
+	background-color: #40587F;
 	border-style: none;
+	font-family:'FFFFORWA',Arial, Helvetica, sans-serif;
+	color: white;
 	font-size: 20px;
 	text-transform: uppercase;
 }
@@ -203,6 +229,7 @@ body {
 	min-height: 75px;
 	text-align: center;
 	padding-left: 10px;
+	background-color: #40587F;
 }
 .productRow .productInfo .houseTechnicalData p {
 	margin: 25px 10px;
@@ -211,22 +238,25 @@ body {
 }
 .productRow .productInfo .houseUserDescription {
 	min-height: 200px;
+	background-color: #40587F;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .productRow .productInfo .houseUserDescription p {
 	margin: 25px 10px;
 }
 .productRow .productInfo .houseUserDescription .houseDescriptionText {
 	text-align: left;
-	padding-left: 10px;
-}
-.productRow .productInfo .houseGameLogo {
 
+}
+.productRow .productInfo .houseGameLogo img
+{
+	height: 150px;
 }
 /* footer */
 #mainWrapper footer {
 	clear: both;
 	overflow: auto;
-	background-color: rgba(208,207,207,1.00);
+	background-color: rgb(216, 16, 16);
 	font-family: source-sans-pro, sans-serif;
 	font-style: normal;
 	font-weight: 200;
@@ -234,6 +264,7 @@ body {
 	padding-right: 22px;
 	padding-left: 22px;
 	text-align: center;
+	background-color: #40587F;
 }
 /*Each footer content */
 #mainWrapper footer div {
@@ -250,7 +281,8 @@ footer div a {
 	text-align: left;
 }
 .footerHeader{
-	color: rgba(146,146,146,1.00);;
+	color: rgba(146,146,146,1.00);
+	font-family:'FFFFORWA',Arial, Helvetica, sans-serif;
 }
 /* Container for links in footer */
 footer .footerConnect {
