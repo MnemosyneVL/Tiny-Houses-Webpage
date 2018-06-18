@@ -31,7 +31,6 @@ header {
 	width: 125px;
 	text-align: center;
 	color: rgba(255,255,255,1.00);
-	background-color: rgba(190,190,190,1.00);
 }
 #headerMenu{
 	float: left;
@@ -133,6 +132,7 @@ header {
 	width: 10%;
 	height: 500px;
 	margin: 0 1%;
+	margin-top: 8.8%;
 	background-color: rgba(246,246,246,1.00);
 }
 /* main content of the site */
@@ -185,6 +185,7 @@ body {
 	padding-right: 5%;
 }
 .mainContent .productRow .productOutlook .productPhoto img {
+	padding-top: 6px;
 	height: 250px;
 	width: 250px;
 }
@@ -234,7 +235,8 @@ body {
 .productRow .productInfo .houseTechnicalData p {
 	margin: 25px 10px;
 	float: left;
-	font-size: 15px;
+	font-size: 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .productRow .productInfo .houseUserDescription {
 	min-height: 200px;
@@ -243,6 +245,8 @@ body {
 }
 .productRow .productInfo .houseUserDescription p {
 	margin: 25px 10px;
+	padding-left: 10px;
+	padding-top: 10px;
 }
 .productRow .productInfo .houseUserDescription .houseDescriptionText {
 	text-align: left;
