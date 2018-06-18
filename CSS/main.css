@@ -141,12 +141,19 @@ body {
 	padding-left: 5%;
 	padding-right: 5%;
 	background-image: url("../Design/bg wallpaper tiling.jpg");
+	
 }
 #content .mainContent .productRowsDescription {
 	height: 80px;
-	background-color:  rgba(208,207,207,1.00); 
 	margin-bottom: 10px;
 	text-align: center;
+	background-image: url("../Design/New_Schematics_Bar.png");
+	
+}
+.test
+{
+	background-image: url("../Design/New_Schematics_Bar");
+	background-color: red;
 }
 .mainContent .productRowsDescription p {
 	color: rgba(255,255,255,1.00);
