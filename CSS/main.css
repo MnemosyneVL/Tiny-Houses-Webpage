@@ -336,8 +336,9 @@ footer .footerContact {
     margin-left: 250px;
     background-color: #40587F;
     width: 70%;
-    height: 750px;
-    padding-top: 100px;
+	height: 750px;
+	margin-top:1%;
+    padding-top: 10px;
     
 }
 #maxLoginBackground{
