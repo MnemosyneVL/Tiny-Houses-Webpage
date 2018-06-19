@@ -537,8 +537,20 @@ footer .footerContact {
 	display: inline-flex;
 	margin-left:2.6%;
 	margin-right:-2.6%;
+	font-family: Arial, Helvetica, sans-serif;
   }
-  
+#thankYouButton
+{
+	margin-top: 1%;
+	background-color: #40587F;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: "FFFFORWA";
+	text-decoration: none;
+	color: white;
+}
   
   .Cart,.Billing,.Main 
   {
@@ -659,6 +671,7 @@ margin-top:1%;
 }
 
 #content{
+
 	letter-spacing: 0.15em;
 	color: black;
 	text-align: center;
@@ -677,6 +690,42 @@ margin-top:1%;
 	border-top: 2px solid #000;
 	border-bottom: 1px solid #000;
 	
+}
+
+#startProfile
+{
+	background-color: #40587F;
+	color: white;
+	font-family: 'FFFFORWA';
+}
+
+#trophyStats
+{
+	background-color: #40587F;
+	color: white;
+	font-family: 'FFFFORWA';
+}
+
+#reviewHistory
+{
+	background-color: #40587F;
+	color: white;
+	font-family: 'FFFFORWA';
+}
+
+#uploadHistory
+{
+	background-color: #40587F;
+	color: white;
+	font-family: 'FFFFORWA';
+}
+
+#downloadHistory
+{
+	background-color: #40587F;
+	color: white;
+	font-family: 'FFFFORWA';
+	margin-bottom: 1%;
 }
 
 
