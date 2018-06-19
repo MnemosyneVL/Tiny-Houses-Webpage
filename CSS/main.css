@@ -542,7 +542,7 @@ footer .footerContact {
 #thankYouButton
 {
 	margin-top: 1%;
-	background-color: #40587F;
+	background-color: #818FA6;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-right: 10px;
@@ -718,6 +718,7 @@ margin-top:1%;
 	background-color: #40587F;
 	color: white;
 	font-family: 'FFFFORWA';
+	height: 350px;
 }
 
 #downloadHistory
